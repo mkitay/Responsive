@@ -7,9 +7,322 @@
     <meta name="description" content="Your site description." />
     <title>Creative Web-Responsive</title>
 
-    <link href="responsive.min.css" rel="stylesheet" />
+    <link href="responsive.css" rel="stylesheet" />
 </head>
 <body>
+  <div class="container">
+  <h1 class="text-center">ResponsiveBP</h1>
+  <h2 class="text-center">"A super lightweight HTML, Sass, CSS, and JavaScript framework for building responsive websites."</h2>
+  <br>
+  <br>
+  <u><h1 class="text-center">CSS</h1></u>
+  <br>
+  <h1 id="forms" class="text-pull myh1">Forms</h1>
+  <p>ResposiveBP makes it very easy to create forms and input elements. Below is an example sampling some of the many element options ResponsiveBP has to offer.</p>
+  <div class="text-center">
+  <form action="#forms">
+    <fieldset>
+        <legend class="text-center">Standard Form spanning two columns</legend>
+        <div class="row">
+            <div class="col-s-6">
+                <div class="row">
+                    <div class="col-s-4">
+                        <label for="input2">Text</label>
+                    </div>
+                    <div class="col-s-8">
+                        <input type="text" id="input2" value="standard input...">
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-s-4">
+                        <label for="select-default2">Select From Choices</label>
+                    </div>
+                    <div class="col-s-8">
+                        <select id="select-default2">
+                            <option>1</option>
+                            <option>2</option>
+                            <option>3</option>
+                            <option>4</option>
+                            <option>5</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-s-4">
+                        <label for="input-file2">File upload</label>
+                    </div>
+                    <div class="col-s-8">
+                        <input id="input-file2" type="file">
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-s-4">
+                        <label for="input-password2">Password</label>
+                    </div>
+                    <div class="col-s-8">
+                        <input type="password" id="input-password2">
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-s-4">
+                        <label for="input-time2">Time</label>
+                    </div>
+                    <div class="col-s-8">
+                        <input type="time" id="input-time2">
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-s-4">
+                        <label for="input-date2">Date</label>
+                    </div>
+                    <div class="col-s-8">
+                        <input type="date" id="input-date2">
+                    </div>
+                    <div class="row">
+                        <div class="col-s-4">
+                            <label for="textarea2">Textarea</label>
+                        </div>
+                        <div class="col-s-8">
+                            <textarea id="textarea2"></textarea>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-s-6">
+                <div class="row">
+                    <div class="col-s-4">
+                        <label for="input-search2">Search</label>
+                    </div>
+                    <div class="col-s-8">
+                        <input type="search" id="input-search2" placeholder="Search...">
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-s-4">
+                        <label for="input-color2">Color</label>
+                    </div>
+                    <div class="col-s-8">
+                        <input type="color" id="input-color2">
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-s-4">
+                        <label for="input-range2">Range</label>
+                    </div>
+                    <div class="col-s-8">
+                        <input type="range" id="input-range2" min="0" max="100" value="50">
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-s-4">
+                        <label for="check-disabled3">Disabled Checkbox</label>
+                    </div>
+                    <div class="col-s-8">
+                        <input type="checkbox" id="check-disabled3" value="option1" disabled>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-s-4">
+                        <label for="check3">Checkbox 1</label>
+                    </div>
+                    <div class="col-s-8">
+                        <input type="checkbox" id="check3" value="option1">
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-s-4">
+                        <label for="check4">Checkbox 2</label>
+                    </div>
+                    <div class="col-s-8">
+                        <input type="checkbox" id="check4" value="option2">
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-s-4">
+                        <label for="radio3">Radio 1</label>
+                    </div>
+                    <div class="col-s-8">
+                        <input type="radio" id="radio3" name="radio" value="option2" checked>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-s-4">
+                        <label for="radio4">Radio 2</label>
+                    </div>
+                    <div class="col-s-8">
+                        <input type="radio" id="radio4" name="radio" value="option1">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </fieldset>
+    <div class="form-actions">
+        <button type="submit">Submit</button>
+        <button type="button">Cancel</button>
+    </div>
+</form>
+</div>
+<p class="text-center">-----------------------------------------------------------------------------</p>
+<h1 class="text-pull myh1">Buttons</h1>
+<p>Utilizing classes you can customize buttons for various states as demonstrated below.</p>
+<div class="col-s-6">
+<button>Standard Button</button>
+</div>
+<br>
+<br>
+<br>
+<div class="col-s-6">
+<button disabled>Disabled Button</button>
+</div>
+<br>
+<br>
+<br>
+<div class="col-s-6">
+<div class="input-group">
+  <span class="input-group-addon">
+    <button>Inline Button</button>
+  </span>
+  <input type="text">
+</div>
+</div>
+<br>
+<br>
+<br>
+<div class="col-s-8">
+  <button>Group Button One</button>
+  <button>Group Button Two</button>
+  <button>Group Button Three</button>
+  <button>Group Button Four</button>
+</div>
+<br>
+<br>
+<p class="text-center">-----------------------------------------------------------------------------</p>
+<h1 class="text-pull myh1">Tables</h1>
+<p>ResponsiveBP offers tables with 3 basic styles</p>
+<h2>Bordered</h2>
+<table class="table-bordered">
+    <thead>
+        <tr>
+            <th scope="col">Header</th>
+            <th>Header</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <th scope="row">Data</th>
+            <td>Data</td>
+        </tr>
+        <tr>
+            <th scope="row">Data</th>
+            <td>Data</td>
+
+        </tr>
+        <tr>
+            <th scope="row">Data</th>
+            <td>Data</td>
+
+        </tr>
+    </tbody>
+  </table>
+    <h2>Striped</h2>
+    <table class="table-striped">
+    <thead>
+        <tr>
+            <th scope="col">Header</th>
+            <th>Header</th>
+            <th>Header</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <th scope="row">Data</th>
+            <td>Data</td>
+            <td>Data</td>
+        </tr>
+        <tr>
+            <th scope="row">Data</th>
+            <td>Data</td>
+            <td>Data</td>
+        </tr>
+        <tr>
+            <th scope="row">Data</th>
+            <td>Data</td>
+            <td>Data</td>
+        </tr>
+    </tbody>
+  </table>
+    <h2>Combined</h2>
+    <table class="table-striped table-bordered table-scrollable">
+    <thead>
+        <tr>
+            <th scope="col">Header</th>
+            <th>Header</th>
+            <th>Header</th>
+            <th>Header</th>
+            <th>Header</th>
+            <th>Header</th>
+            <th>Header</th>
+            <th>Header</th>
+            <th>Header</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <th scope="row">Data</th>
+            <td>Data</td>
+            <td>Data</td>
+            <td>Data</td>
+            <td>Data</td>
+            <td>Data</td>
+            <td>Data</td>
+            <td>Data</td>
+            <td>Data</td>
+        </tr>
+        <tr>
+            <th scope="row">Data</th>
+            <td>Data</td>
+            <td>Data</td>
+            <td>Data</td>
+            <td>Data</td>
+            <td>Data</td>
+            <td>Data</td>
+            <td>Data</td>
+            <td>Data</td>
+        </tr>
+        <tr>
+            <th scope="row">Data</th>
+            <td>Data</td>
+            <td>Data</td>
+            <td>Data</td>
+            <td>Data</td>
+            <td>Data</td>
+            <td>Data</td>
+            <td>Data</td>
+            <td>Data</td>
+        </tr>
+    </tbody>
+</table>
+
+
+<br>
+<br>
+<p class="text-center">-----------------------------------------------------------------------------</p>
+<h1 class="text-pull myh1">Alerts</h1>
+<p>ResponsiveBP utilizes a jQuery plugin that adds the functionality to hide to any parent element it targets to incorporate dismiss functionality to alerts. It uses CSS transitions to perform the animation.</p>
+<div class="alert alert-dismissable" role="alert">
+    <button data-dismiss-target=".alert" class="close">x</button>
+    <h4>Sample Alert</h4>
+    <p>
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+        tempor incididunt ut labore et dolore magna aliqua.
+    </p>
+    <p>
+        Click "x" to dismiss.
+    </p>
+</div>
+</div>
+
+
 
 
     <script src="vendor/jquery-2.1.4.min.js"></script>

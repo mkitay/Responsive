@@ -12,7 +12,9 @@ html {
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%; }
 
+
 body {
+  background-color: lightgrey;
   margin: 0; }
 
 article,
@@ -174,11 +176,16 @@ button:focus, input:focus, textarea:focus, keygen:focus, select:focus {
 _::-ms-reveal,
 body:not([tabindex]):focus,
 div:not([tabindex]):focus {
-  outline: none; }
+  outline: none;
+}
 
 h1, h2, h3, h4, h5, h6 {
   text-rendering: optimizeLegibility;
   page-break-after: avoid; }
+
+.myh1{
+  color: red;
+}
 
 h1 {
   font-size: 2rem;
@@ -2146,7 +2153,7 @@ table {
 
 .table-striped tbody > tr:nth-child(odd) > td,
 .table-striped tbody > tr:nth-child(odd) > th {
-  background-color: #ebebeb; }
+  background-color: #658eba; }
 
 .table-scrollable {
   margin: 1rem 0;
