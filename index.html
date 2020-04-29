@@ -15,7 +15,21 @@
   <h2 class="text-center">"A super lightweight HTML, Sass, CSS, and JavaScript framework for building responsive websites."</h2>
   <br>
   <br>
-  <u><h1 class="text-center">CSS</h1></u>
+  <nav data-navigation>
+    <button>Menu</button>
+    <ul>
+    <li><a href="#CSS">CSS</a></li>
+    <li><a href="#forms">Forms</a></li>
+    <li><a href="#buttons">Buttons</a></li>
+    <li><a href="#tables">Tables</a></li>
+    <li><a href="#alerts">Alerts</a></li>
+    <li><a href="#JS">JavaScript</a></li>
+    <li><a href="#carousels">Carousels</a></li>
+    <li><a href="#modal">Modal</a></li>
+    <li><a href="#tabs">Tabs</a></li>
+    </ul>
+</nav>
+  <u><h1 id="CSS" class="text-center">CSS</h1></u>
   <br>
   <h1 id="forms" class="text-pull myh1">Forms</h1>
   <p>ResposiveBP makes it very easy to create forms and input elements. Below is an example sampling some of the many element options ResponsiveBP has to offer.</p>
@@ -163,7 +177,7 @@
 </form>
 </div>
 <p class="text-center">-----------------------------------------------------------------------------</p>
-<h1 class="text-pull myh1">Buttons</h1>
+<h1 id="buttons" class="text-pull myh1">Buttons</h1>
 <p>Utilizing classes you can customize buttons for various states as demonstrated below.</p>
 <div class="col-s-6">
 <button>Standard Button</button>
@@ -197,7 +211,7 @@
 <br>
 <br>
 <p class="text-center">-----------------------------------------------------------------------------</p>
-<h1 class="text-pull myh1">Tables</h1>
+<h1 id="tables" class="text-pull myh1">Tables</h1>
 <p>ResponsiveBP offers tables with 3 basic styles</p>
 <h2>Bordered</h2>
 <table class="table-bordered">
@@ -307,7 +321,7 @@
 <br>
 <br>
 <p class="text-center">-----------------------------------------------------------------------------</p>
-<h1 class="text-pull myh1">Alerts</h1>
+<h1 id="alerts" class="text-pull myh1">Alerts</h1>
 <p>ResponsiveBP utilizes a jQuery plugin that adds the functionality to hide to any parent element it targets to incorporate dismiss functionality to alerts. It uses CSS transitions to perform the animation.</p>
 <div class="alert alert-dismissable" role="alert">
     <button data-dismiss-target=".alert" class="close">x</button>
@@ -325,9 +339,9 @@
 <p class="text-center">-----------------------------------------------------------------------------</p>
 <br>
 <br>
-<u><h1 class="text-center">JavaScript</h1></u>
+<u><h1 id="JS" class="text-center">JavaScript</h1></u>
 <br>
-<h1 class="text-pull myh1">Carousels</h1>
+<h1 id="carousels" class="text-pull myh1">Carousels</h1>
 <p>ResponsiveBP utilizes a jQuery plugin that creates a carousel for cycling through elements. It uses CSS transitions to perform the animation. Comes in two modes for transitions: slide and fade. Fade is demonstrated below.</p>
 <div class="col-s-6">
 <div id="carousel-2" class="carousel" data-carousel-mode="fade">
@@ -383,7 +397,7 @@
 <br>
 <br>
 <p class="text-center">-----------------------------------------------------------------------------</p>
-<h1 class="text-pull myh1">Modal</h1>
+<h1 id="modal" class="text-pull myh1">Modal</h1>
 <p>ResponsiveBP uses a jQuery plugin that adds modal functionality to any element it targets. It uses CSS transitions to perform the animation.
 </p>
 <a href="img/pic1.jpg" data-modal-title="Relative source (image)">
@@ -400,7 +414,24 @@
    data-modal-title="Google Maps">
     Launch Google Map overlay
 </a>
+<br>
+<br>
+<p class="text-center">-----------------------------------------------------------------------------</p>
+<h1 id="tabs" class="text-pull myh1">Tabs</h1>
+<p>ResponsiveBP uses a jQuery plugin that provides dynamic tab functionality to transition through panes of local content. It uses CSS transitions to perform the animation.</p>
+<div class="tabs col-s-6" data-tabs>
+    <ul>
+        <li><a href="#">tab1</a></li>
+        <li><a href="#">tab2</a></li>
+        <li><a href="#">tab3</a></li>
+        <li><a href="#">tab4</a></li>
+    </ul>
+    <section>Tab 1 content: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</section>
+    <section>Tab 2 content: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</section>
+    <section>Tab 3 content: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</section>
+    <section>Tab 4 content: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</section>
 </div>
+</div><!--container -->
 
 
 
