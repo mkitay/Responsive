@@ -1,4 +1,4 @@
-# Responsive
+# ResponsiveBP
 Creative Web project displaying the functionality of ResponsiveBP
 
 ## Downloading ResponsiveBP
